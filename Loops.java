@@ -13,11 +13,11 @@ public class Loops {
 		}*/
 
 		//after
-		/*int x = 45;
-		while (x >= 20) {
+		int z = 45;
+		while (z >= 20) {
 			System.out.println(x);
-			x = x - 5;
-		}*/
+			z = z - 5;
+		}
 
 		for (int i = 24; i <= 68; i = i + 2) {
 			System.out.println(i);
