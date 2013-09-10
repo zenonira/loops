@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Loops {
 	public static void main(String[] args) {
-		hailstone();
+		//hailstone();
+		excersize();
 
 		/*int x = 1; // start
 		while (x <= 100) {  // stopping condition
@@ -43,8 +44,24 @@ public class Loops {
 			}
 		}
 		
-		
-		
+	
+	}
+
+	public static void excersize() {
+		Scanner reader = new Scanner(System.in);
+
+		final double e = 2.72;
+		int exponent;
+		System.out.println("Enter number: ");
+		exponent = reader.nextInt();
+		double total = 1;
+		for (int i = exponent; i > 0; i--) {
+			total = total * e;
+			System.out.println(total);
+		}
+
+		double x = Math.exp(exponent);
+		System.out.println("Computer Calculation: " + x);
 	}
 
 }
